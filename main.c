@@ -10,3 +10,7 @@ int main(int argc, char **argv) {
   else
     function_that_might_or_might_not_print_the_number_inserted(atoi(*(argv + 1)));
 }
+
+void print_hello() {
+  printf("Hello world!");
+}
