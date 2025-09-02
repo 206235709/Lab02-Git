@@ -11,6 +11,7 @@ int main(int argc, char **argv) {
     function_that_might_or_might_not_print_the_number_inserted(atoi(*(argv + 1)));
 }
 
+//Nouvelle fonction très importante!!!
 void print_hello() {
   printf("Hello world!");
 }
